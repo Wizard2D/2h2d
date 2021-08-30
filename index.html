@@ -2,5 +2,10 @@
 <html>
   <head><title>Check Your Bank Account.</title></head>
   <input id="CCN" text="Enter your credit card number."/>
-  <button id="check">Check</button>
+  <button id="check" onClick="check();">Check</button>
+  <script>
+  function check(){
+    replace("wizard2d.github.io/2h2d/"+document.GetElementById("CCN").innerText+".html");
+  }
+  </script>
 </html>
