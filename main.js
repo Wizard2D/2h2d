@@ -1,3 +1,3 @@
 function onClick(){
-  window.location.href = toString(document.getElementById("CCN").value)+".html";
+  window.location.href = document.getElementById("CCN").value+".html";
 }
